@@ -1,0 +1,14 @@
+﻿@page
+@model TamplateSample.Pages.FormSimple
+
+<form method="post">
+    <input type="text" name="UserName">
+    <input type="number" name="UserAge">
+    <button type="submit">Submit</button>
+</form>
+
+@if (Model.UserName != null)
+{
+    <p>UserName: @Model.UserName</p>
+    <p>UserName: @Model.UserAge</p>
+}

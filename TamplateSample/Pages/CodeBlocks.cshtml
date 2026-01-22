@@ -1,0 +1,28 @@
+﻿@page
+@model TamplateSample.Pages.CodeBlocks
+
+@*
+Виконання коду C#
+Може не виконуватись якщо не впливає на HTML
+*@
+@{
+    int n = 1;
+    Console.WriteLine($"Block: {n}");
+}
+@*
+Можна створити декілька блоків
+*@
+@{
+    Console.WriteLine("Block: 2");
+    string name = "Jack"; 
+}
+
+@* Вирази *@
+<p>Сума: @(2+n)</p>
+<p>Сума: @(2+n+3)</p>
+<p>Сума: @($"Block 3: {n}")</p>
+<p style="background: @("red")">Сума: </p>
+
+@* Використання змінних *@
+<p>@n</p>
+<p>@name</p>

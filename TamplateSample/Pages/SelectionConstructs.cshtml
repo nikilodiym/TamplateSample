@@ -1,0 +1,25 @@
+﻿@page
+@model TamplateSample.Pages.SelectionConstructs
+
+@* Тернарний оператор*@
+<p>@(Model.IsAdmin ? "Admin" : "User")</p>
+
+@if (Model.IsAdmin)
+{
+    <p>Can Accass</p>
+}
+
+@if (Model.UserAge < 18)
+{
+    <p>No Access</p>
+}
+else if (Model.UserAge >= 18 && Model.UserAge < 21)
+{
+}
+else if (Model.UserAge is >= 21 and < 25)
+{
+}
+else
+{
+}
+

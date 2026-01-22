@@ -1,0 +1,14 @@
+﻿@model TamplateSample.ViewModels.ProdactViewModel
+
+<div>
+    <h3>@Model.Name</h3>
+    <p>Price: @Model.Price</p>
+    @if (Model.IsStock)
+    {
+        <span class="text-success">В наявності</span>
+    }
+    else
+    {
+        <span class="text-danger">Немає в наявності</span>
+    }
+</div>

@@ -1,0 +1,12 @@
+﻿@page
+@model TamplateSample.Pages.SimpleData
+
+
+@* ДАНІ *@
+<p>Вік користувача: <strong>@Model.UserAge</strong></p>
+<p>Ім'я користувача: <strong>@Model.UserName</strong></p>
+<p>Адмін?: <strong>@Model.IsAdmin</strong></p>
+<p>TimeStamp: <strong>@Model.TimeStamp</strong></p>
+<p>TimeStamp: <strong>@Model.TimeStamp.ToString("H:m d/MMMM/yyyy")</strong></p>
+<p>Skills: <strong>@Model.Skills[0]</strong></p>
+<p>Profile: <strong>@Model.Profile.Email</strong></p>

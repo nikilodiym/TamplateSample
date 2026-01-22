@@ -1,0 +1,19 @@
+﻿@page
+@model TamplateSample.Pages.TagHelpers
+
+<h2>
+    @* <a href="/Products/Details/5">Index</a> *@
+    @* <a asp-page="/Products/Details" asp-route-id="5">Index</a> *@
+    <a asp-page="/Index">Index</a>
+</h2>
+
+@*
+<form method="post" asp-page-handler="Login">
+    <span asp-validation-summary="All"></span>
+    <span asp-validation-for="Email"></span>
+    <input asp-for="Email" class="form-control">
+    <button type="submit">OK</button>
+</form>
+*@
+
+<select asp-for="SelectedRole" asp-items="Model.Roles"></select>

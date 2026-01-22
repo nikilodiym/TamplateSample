@@ -1,0 +1,15 @@
+﻿@page
+@model TamplateSample.Pages.Partial
+
+<h2>Каталог товарів</h2>
+
+@foreach (var product in Model.Products)
+{
+    <partial name="Shared/_ProductCard" model="product"/>
+}
+
+@{
+    ViewData["Message"] = "Просте повідомлення!";
+}
+
+<partial name="Shared/_FooterInfo"/>

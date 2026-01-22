@@ -1,0 +1,62 @@
+﻿@page
+@model TamplateSample.Pages.Cycles
+
+@{
+    int i = 1;
+}
+
+<div>
+    @while (i <= 3)
+    {
+        @* <p>Крок: @i</p> *@
+        <p>Крок: @(i++)</p>
+        // i++;
+    }
+</div>
+
+<div>
+    @do
+    {
+        <p>Крок: @(i--)</p>
+    } while (i >= 0);
+</div>
+
+<div>
+    @for (int j = 0; j < 10; j++)
+    {
+        <p>Елемент: @j</p>
+    }
+</div>
+
+<div>
+    @for (int j = 0; j < 10; j++)
+    {
+        <div>Test @j</div>
+    }
+</div>
+
+<ul>
+    @foreach (var color in Model.Colors)
+    {
+        <li>@color</li>
+    }
+</ul>
+
+@* Таблиця *@
+<table>
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for (int n = 0; n < Model.Colors.Count; n++)
+    {
+        <tr>
+            <td>@(n + 1)</td>
+            <td>@Model.Colors[n]</td>
+        </tr>
+    }
+    </tbody>
+</table>

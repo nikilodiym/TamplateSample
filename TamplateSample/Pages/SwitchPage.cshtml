@@ -1,0 +1,72 @@
+﻿@page
+@model TamplateSample.Pages.SwitchPage
+
+@switch (Model.Role)
+{
+    case "Admin":
+        <p>Адміністратор</p>
+        break;
+    case "User":
+        <p>Користувач</p>
+        break;
+    default:
+        <p>Гість</p>
+        break;
+}
+
+@switch (Model.UserScore)
+{
+    case int score when score >= 90:
+        <p>Grade: A</p>
+        break;
+    case int score when score >= 80:
+        <p>Score = @score</p>
+        <p>Grade: B</p>
+        break;
+    case int score when score >= 70:
+        <p>Grade: C</p>
+        break;
+    default:
+        <p>Grade: F</p>
+        break;
+}
+
+@switch (Model.UserAge)
+{
+    case < 18:
+        <p>No Access</p>
+        break;
+    case >= 18 and < 65:
+        <p>Access Granted</p>
+        break;
+}
+
+@switch (Model.SecondRole)
+{
+    case SwitchPage.UserRole.Admin:
+        <p>Адміністратор</p>
+        break;
+    case SwitchPage.UserRole.User:
+        <p>Користувач</p>
+        break;
+    default:
+        <p>Гість</p>
+        break;
+}
+
+@{
+    // switch
+    // не можна використовувати інструменти шаблонізатора
+}
+
+<p>
+    @(
+    Model.UserScore switch
+    {
+        >= 90 => "Відмінно",
+        >= 75 => "Добре",
+        >= 60 => "Задовільно",
+        _ => "Незадовільно"
+    }
+    )
+</p>

@@ -1,0 +1,33 @@
+﻿@page
+@model TamplateSample.Pages.Comments
+
+@{
+    Layout = null;
+    //C# Коментар
+    /*
+    Блочний коментар
+    C#
+    */
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Comments</title>
+</head>
+<body>
+<h2>
+    <a asp-page="/Index">Index</a>
+</h2>
+<div>
+    @* КОМЕНТАРІ *@
+    @* Це коментар Razor, його не видно в HTML *@
+    @*
+    Блочний
+    Коментар
+    *@
+    <!-- HTML коментар, видно на сторінці -->
+</div>
+</body>
+</html>

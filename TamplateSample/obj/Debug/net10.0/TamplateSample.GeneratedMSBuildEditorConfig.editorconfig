@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TamplateSample
+build_property.RootNamespace = TamplateSample
+build_property.ProjectDir = C:\Users\Test\Downloads\TamplateSample\TamplateSample\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Test\Downloads\TamplateSample\TamplateSample
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/CodeBlocks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kZUJsb2Nrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Comments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/ComplexForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxleEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Cycles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3ljbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/FormSimple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNpbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/NewPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Partial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Sections.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/SelectionConstructs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0aW9uQ29uc3RydWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Shared/_FooterInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Shared/_ProductCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Qcm9kdWN0Q2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/SimpleData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2ltcGxlRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/SwitchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3dpdGNoUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/TagHelpers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFnSGVscGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/Downloads/TamplateSample/TamplateSample/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ucertusb2s
